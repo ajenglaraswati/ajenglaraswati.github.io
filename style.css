@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #ADD8E6;
+    color: #fff0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #9dc2fa;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* About Section */
+#about {
+    background-color: #;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 0.9em;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+footer .socials {
+    margin-top: 10px;
+}
+
+footer .socials a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.3em;
+    transition: color 0.3s;
+}
+
+footer .socials a:hover {
+    color: #007BFF; /* Ganti warna saat hover */
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+    footer .socials {
+        display: block;
+        margin-top: 20px;
+    }
+
+    footer .socials a {
+        display: inline-block;
+        margin: 10px 0;
+    }
+}
